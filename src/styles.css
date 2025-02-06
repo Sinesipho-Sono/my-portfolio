@@ -1,14 +1,38 @@
 body {
   display: block;
-
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  background-color: #b9dbe1;
+}
+.navbar-brand {
+  font-family: "Pixelify Sans", serif;
+}
+.navbar {
+  background-color: #b9dbe1 !important;
+}
+.container {
+  padding: 40px 5px;
+  margin-top: 5px;
+  background-color: #b9dbe1;
+}
+h4 {
+  font-size: 40px !important;
+  font-family: "Phudu", serif;
+  margin-top: 5px;
+}
+p {
+  font-size: 20px;
+  font-family: "Inter", serif;
 }
 
-.img-fluid {
-  max-width: 300px !important;
+img {
+  max-width: 70% !important;
+}
+
+.btn {
+  padding: 10px 20px !important;
 }
