@@ -152,3 +152,16 @@ a.buttons {
 a {
   font-family: var(--default-font-family);
 }
+
+.footer-icons {
+  margin: 0 10px;
+  background-color: #e7f3f5;
+  transition: all 100ms ease-in-out;
+  padding: 10px 10px;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+.footer-icons:hover {
+  background-color: #4d8691;
+  color: white;
+}
