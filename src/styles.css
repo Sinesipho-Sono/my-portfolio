@@ -134,3 +134,17 @@ a.buttons {
   text-decoration: none;
   color: black;
 }
+
+.contact-icons {
+  width: 150px !important;
+}
+.project-icon {
+  color: var(--secondary-color);
+}
+.contact-info {
+  line-height: 100px;
+  padding: 0px 30px;
+}
+a {
+  font-family: var(--default-font-family);
+}
