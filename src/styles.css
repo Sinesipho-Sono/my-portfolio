@@ -121,3 +121,11 @@ ul {
   border-radius: 6px;
   box-shadow: 0px 5px 10px 2px var(--secondary-color);
 }
+.li-heading {
+  padding: 10px 40px;
+}
+
+a.buttons {
+  text-decoration: none;
+  color: black;
+}
