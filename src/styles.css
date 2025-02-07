@@ -34,6 +34,10 @@ h2 {
   font-weight: 900 !important;
 }
 
+p {
+  font-family: var(--default-font-family);
+}
+
 h2,
 h3,
 h4,
@@ -167,4 +171,8 @@ a {
 .footer-icons:hover {
   background-color: #4d8691;
   color: white;
+}
+
+footer p {
+  font-size: 10px !important;
 }
