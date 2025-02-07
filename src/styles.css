@@ -100,6 +100,9 @@ h4 {
     padding: 10px 5px;
     margin-bottom: 0;
   }
+  .li-heading {
+    font-size: 14px !important;
+  }
 }
 @media (max-width: 992px) {
   .project-description {
