@@ -53,11 +53,13 @@ h2 {
   font-weight: 900 !important;
 }
 
-p {
+.homepage p {
   font-family: var(--default-font-family);
   font-size: 24px;
 }
-
+p {
+  font-family: var(--default-font-family);
+}
 h2,
 h3,
 h4,
