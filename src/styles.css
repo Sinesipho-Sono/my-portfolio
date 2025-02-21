@@ -4,6 +4,15 @@
   --primary-color: #b9dbe1;
   --secondary-color: #549eac;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container-fluid {
+  max-width: 100%;
+}
+
 body {
   display: block;
   margin: 0;
@@ -12,6 +21,7 @@ body {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
 }
 .display-restriction {
   display: none;
@@ -185,4 +195,13 @@ footer p {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .display-sm-image {
+    display: block;
+  }
+  .display-none-image {
+    display: none !important;
+  }
 }
