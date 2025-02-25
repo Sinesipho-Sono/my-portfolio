@@ -37,6 +37,10 @@ body {
 .navbar {
   background-color: #183140 !important;
 }
+.navbar-toggler {
+  background-color: white !important;
+}
+
 .homepage {
   padding: 40px 5px;
   background-image: linear-gradient(
@@ -93,6 +97,16 @@ h4 {
 .img-projects {
   max-width: 90% !important ;
 }
+.diploma-image {
+  display: block;
+  max-width: 50% !important;
+  margin: 0 auto;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .buttons {
   background-color: white;
   border: 2px solid var(--secondary-color);
@@ -125,7 +139,9 @@ h4 {
   .img-projects {
     max-width: 50% !important;
   }
-
+  .diploma-image {
+    max-width: 100% !important;
+  }
   .container {
     display: flex;
   }
@@ -172,7 +188,7 @@ ul {
   color: white;
   padding: 10px 40px;
   border-radius: 6px;
-  box-shadow: 0px 5px 10px 2px var(--secondary-color);
+  box-shadow: 0px 5px 10px 2px #496779;
 }
 .li-heading {
   padding: 10px 40px;
